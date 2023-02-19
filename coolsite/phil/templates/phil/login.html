@@ -1,0 +1,23 @@
+{% extends 'phil/base.html' %}
+{% load i18n %}
+
+
+{% block content %}
+<br>
+<h1>{% trans 'Authorization ' %}</h1>
+
+
+<form method="post">
+    {% csrf_token %}
+<div class="form-error">{{ form.non_field_errors }}</div>
+
+{% for f in form %}
+<p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+<div class="form-error">{{ f.errors }}</div>
+{% endfor %}
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button type="submit">&nbsp;&nbsp;<b>{% trans 'Log in' %}</b>&nbsp;&nbsp;</button><br>&nbsp;&nbsp;<br>
+</form>
+
+{% endblock %}

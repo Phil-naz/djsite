@@ -1,0 +1,49 @@
+{% extends 'phil/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans 'About django development' %}{% endblock %}
+{% block content %}
+<h1>{% trans 'Development of web projects using the Django framework (Python)' %}</h1>
+
+<b>{% trans 'Practice:' %}</b>
+<ul>{% trans 'I passed ' %}<a href="https://www.youtube.com/playlist?list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi" target="_blank">{% trans 'course John Elder' %}</a>, <a href="/blog/" target="_blank">{% trans 'created a training project "Create A Simple Blog With Python and Django"' %}</a>. <a href="https://github.com/Phil-naz/codemy_ablog" target="_blank">GitHub.</a><br>
+<b>{% trans 'In the project:' %}</b>
+
+<li type="square">{% trans 'creating a blog;' %}</li>
+<li type="square">{% trans 'ability to create categories and assign a category to blog posts;' %}</li>
+<li type="square">{% trans 'creating SLUG addresses to categories;' %}</li>
+<li type="square">{% trans 'system of ' %}<a href="#" target="_blank">{% trans 'Registration ' %}</a>{% trans 'and ' %}<a href="#" target="_blank">{% trans 'authorizations ' %}</a>{% trans 'users;' %}</li>
+<li type="square"><a href="#" target="_blank">{% trans 'adding posts to a website with a photo. There is also the possibility of formatting the text of the post.' %}</a> {% trans 'It is possible to make only registered and authorized users;' %}</li>
+<li type="square">{% trans 'the ability to edit and delete posts to certain users;' %}</li>
+<li type="square">{% trans 'creating a system of likes;' %}</li>
+<li type="square">{% trans 'creating a post comment system;' %}</li>
+</ul>
+
+<ul>{% trans 'I passed ' %}<a href="https://www.youtube.com/watch?v=FyTL1bnUx5I&list=PLA0M1Bcd0w8xO_39zZll2u1lz_Q-Mwn1F" target="_blank">{% trans 'Selfedu training ' %}</a>, <a href="#" target="_blank">{% trans 'created a training project "Women"' %}</a>. <a href="https://github.com/Phil-naz/selfedu_coolsite" target="_blank">GitHub.</a><br>
+<b>{% trans 'In the project:' %}</b>
+<li type="square">{% trans 'selection of articles with a photo;' %}</li>
+<li type="square">{% trans 'articles are divided into categories, you can choose to display articles by certain category;' %}</li>
+<li type="square">{% trans 'system of ' %}<a href="#" target="_blank">{% trans 'Registration ' %}</a>{% trans 'and ' %}<a href="#" target="_blank">{% trans 'authorizations ' %}</a>{% trans 'users;' %}</li>
+<li type="square"><a href="#" target="_blank">{% trans 'adding articles to a website with a photo. ' %}</a>{% trans 'It is possible to do this only for registered and authorized users;' %}</li>
+<li type="square">{% trans 'SLUGs are used for routing to articles;' %}</li>
+<li type="square">{% trans 'using MIXINs to remove code duplication;' %}</li>
+<li type="square">{% trans 'using paginated navigation (pagination);' %}</li>
+</ul>
+
+<ul><b>{% trans 'Additionally:' %}</b>
+<li type="square">{% trans 'this site is completely made on the Django framework: here I create and upload projects (including educational ones). The source code of this project can be  viewed at ' %}<a href="https://github.com/Phil-naz/djsite" target="_blank">GitHub</a>;</li>
+<li type="square">{% trans 'this site is made multilingual' %};</li>
+<li type="square"><a href="#" target="_blank">{% trans 'I created an application in which it possible to save, compare with last date and watch the dynamics of body measurements;' %}</a> <a href="https://github.com/Phil-naz/measurements" target="_blank">GitHub;</a></li>
+<li type="square">{% trans 'I am creating an application with a list of books I have read, in which you can write your description of the book and add quotes from the book;' %}</li>
+<li type="square">HTML;</li>
+<li type="square">CSS;</li>
+<li type="square">Git & GitHub;</li>
+<li type="square">{% trans 'I use MySQL, SQLite, PostgreSQL;' %}</li>
+<li type="square">{% trans 'Django framework (PYTHON);' %}</li>
+<li type="square">{% trans 'PYTHON libraries: NumPy, Pandas, Tkinter.' %}</li>
+</ul>
+
+<br><br>
+
+{% endblock content %}
+

@@ -1,0 +1,20 @@
+{% extends 'phil/base.html' %}
+{% load i18n %}
+
+
+{% block title %}{% trans 'Add a book' %}{% endblock %}
+{% block content %}
+
+<h2>{% trans 'Add a book' %}</h2>
+<form action="{% url 'addbook' %}" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+
+  <div>{{ form.non_field_errors }}</div>
+{% for f in form %}
+<p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+<div class="form-error">{{ f.errors }}</div>
+{% endfor %}
+
+  <button type="submit">{% trans 'Add a book' %}</button><br><br>
+</form>
+{% endblock %}

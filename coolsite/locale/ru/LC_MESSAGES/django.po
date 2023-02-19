@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-18 19:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: books/templates/books/addbook.html:3 books/templates/books/addbook.html:16
+#: books/templates/books/book.html:13 books/templates/books/books.html:14
+msgid "Add a book"
+msgstr "Добавить книгу"
+
+#: books/templates/books/book.html:15 books/templates/books/books.html:16
+msgid "All books"
+msgstr "Все книги"
+
+#: books/templates/books/books.html:7
+msgid ""
+"This app is under construction. Nowadays, you can add here books with "
+"description of author. Later, users can add their descriptions and add "
+"quotes from them."
+msgstr ""
+"Это приложение находится в стадии разработки. В настоящее время вы можете "
+"добавлять сюда книги с описанием автора. Позже пользователи смогут добавлять "
+"свои описания и цитаты из них."
+
+#: books/templates/books/books.html:53
+msgid "Description and Quotes"
+msgstr "Описание и цитаты"
+
+#: measurements/templates/measurements/comparison.html:5
+#: measurements/templates/measurements/comparison.html:9
+msgid "Comparison last body measurements with"
+msgstr "Сравнение последних замеров тела с замерами от"
+
+#: measurements/templates/measurements/comparison.html:16
+#: measurements/templates/measurements/measurements.html:65
+msgid "Date"
+msgstr "Дата"
+
+#: measurements/templates/measurements/comparison.html:17
+#: measurements/templates/measurements/measurements.html:66
+msgid "Shoulders"
+msgstr "Плечи"
+
+#: measurements/templates/measurements/comparison.html:18
+#: measurements/templates/measurements/measurements.html:67
+msgid "Chest"
+msgstr "Грудь"
+
+#: measurements/templates/measurements/comparison.html:19
+#: measurements/templates/measurements/measurements.html:68
+msgid "Waist"
+msgstr "Талия"
+
+#: measurements/templates/measurements/comparison.html:20
+#: measurements/templates/measurements/measurements.html:69
+msgid "Buttocks"
+msgstr "Ягодицы"
+
+#: measurements/templates/measurements/comparison.html:21
+#: measurements/templates/measurements/measurements.html:70
+msgid "Hips"
+msgstr "Бёдра"
+
+#: measurements/templates/measurements/comparison.html:22
+#: measurements/templates/measurements/measurements.html:71
+msgid "Weight"
+msgstr "Вес"
+
+#: measurements/templates/measurements/comparison.html:44
+msgid "Difference"
+msgstr "Разница"
+
+#: measurements/templates/measurements/comparison.html:62
+#: measurements/templates/measurements/meas_add.html:33
+#: measurements/templates/measurements/measurements.html:31
+#: phil/templates/phil/base.html:51 phil/templates/phil/login.html:20
+msgid "Log in"
+msgstr "Войти"
+
+#: measurements/templates/measurements/comparison.html:62
+#: measurements/templates/measurements/meas_add.html:33
+#: measurements/templates/measurements/measurements.html:31
+msgid ", if necessary "
+msgstr ", при необходимости "
+
+#: measurements/templates/measurements/comparison.html:62
+#: measurements/templates/measurements/meas_add.html:33
+#: measurements/templates/measurements/measurements.html:31
+msgid "register"
+msgstr "зарегистрируйтесь"
+
+#: measurements/templates/measurements/comparison.html:62
+#: measurements/templates/measurements/meas_add.html:33
+msgid ", your body measurement history will be displayed here."
+msgstr ", здесь будет отображаться история замеров тела"
+
+#: measurements/templates/measurements/comparison.html:74
+#: measurements/templates/measurements/meas_add.html:44
+#: measurements/templates/measurements/measurements.html:39
+msgid "Comparison last with measurements from"
+msgstr "Сравнение последних замеров тела с замерами от"
+
+#: measurements/templates/measurements/meas_add.html:5
+#: measurements/templates/measurements/meas_add.html:9
+#: measurements/templates/measurements/measurements.html:28
+msgid "Add measurements"
+msgstr "Добавить замеры тела"
+
+#: measurements/templates/measurements/meas_add.html:27
+msgid "Add"
+msgstr "Добавить"
+
+#: measurements/templates/measurements/measurements.html:5
+#, fuzzy
+#| msgid "Add measurements"
+msgid "Measurements"
+msgstr "Добавить замеры тела"
+
+#: measurements/templates/measurements/measurements.html:9
+#: phil/templates/phil/base.html:41
+msgid "Body measurements"
+msgstr "Замеры тела"
+
+#: measurements/templates/measurements/measurements.html:13
+msgid "1. SHOULDERS"
+msgstr "1. ПЛЕЧИ"
+
+#: measurements/templates/measurements/measurements.html:14
+#: measurements/templates/measurements/measurements.html:20
+msgid "(by the largest place, scar or mole)"
+msgstr "(по самому большому месту, шраму или родинке)"
+
+#: measurements/templates/measurements/measurements.html:15
+msgid "2. BREAST"
+msgstr "2. ГРУДЬ"
+
+#: measurements/templates/measurements/measurements.html:16
+msgid "(on the nipples)"
+msgstr "(по соскам)"
+
+#: measurements/templates/measurements/measurements.html:17
+msgid "3. WAIST"
+msgstr "3. ТАЛИЯ"
+
+#: measurements/templates/measurements/measurements.html:18
+msgid "(along the lower edge)"
+msgstr "(по нижнему ребру)"
+
+#: measurements/templates/measurements/measurements.html:19
+msgid "4. BUTTOCKS"
+msgstr "4. ЯГОДИЦЫ"
+
+#: measurements/templates/measurements/measurements.html:21
+msgid "5. HIPS"
+msgstr "5. БЕДРА"
+
+#: measurements/templates/measurements/measurements.html:22
+msgid "(left and right - by the largest place, scar or mole)"
+msgstr "(левое и правое - по самому большому месту, шраму или родинке)"
+
+#: measurements/templates/measurements/measurements.html:24
+msgid ""
+"keep a history of body measurements and compare it with the previous date."
+msgstr ""
+"сохраняйте историю замеров тела и сравнивайте ее с замерами предыдущей даты."
+
+#: measurements/templates/measurements/measurements.html:31
+msgid ", and you can save body measurements and compare with past data."
+msgstr ", вы можете сохранить измерения тела и сравнить с прошлыми данными."
+
+#: measurements/templates/measurements/measurements.html:62
+msgid "History of body measurements"
+msgstr "История замеров тела"
+
+#: members/templates/register.html:4 phil/templates/phil/base.html:51
+msgid "Registration"
+msgstr "Регистрация"
+
+#: phil/templates/phil/about.html:6
+#, fuzzy
+#| msgid "Philip Nazarenko: about me"
+msgid "About Philip Nazarenko"
+msgstr "Веб-проект о Филиппе Назаренко"
+
+#: phil/templates/phil/about.html:10 phil/templates/phil/about_django.html:6
+msgid "Development of web projects using the Django framework (Python)"
+msgstr "Разработка веб-проектов с использованием фреймворка Django (Python)"
+
+#: phil/templates/phil/about.html:11
+#: phil/templates/phil/about_analytics.html:10
+msgid "Analytics (using Excel, SQL, Python)"
+msgstr "Аналитика (с использованием Excel, SQL, Python)"
+
+#: phil/templates/phil/about.html:15
+msgid "Information about me (summary):"
+msgstr "Информация обо мне (кратко):"
+
+#: phil/templates/phil/about.html:17
+msgid ""
+"planning: I usually plan everything in my life. There is a plan for the long-"
+"term  perspective (from 3 years), medium-term (1-3 years). In my current "
+"life I use a plan for a week (sprint), every day I use "
+msgstr ""
+"планирование: обычно планирую все в своей жизни. Есть план на долгосрочную "
+"перспективу (от 3х лет), среднесрочную (1-3г ода). В текущей жизни использую "
+"план на неделю (спринт), каждый день использую "
+
+#: phil/templates/phil/about.html:17
+msgid "\"Todoist\" Task Manager"
+msgstr "менеджер задач «Todoist»"
+
+#: phil/templates/phil/about.html:19
+msgid ""
+"I think it`s impossible to know everything, teamwork is important - each "
+"member of the team will specialize in a certain part of the work;"
+msgstr ""
+"считаю, что все знать невозможно, важна командная работа - каждый участник "
+"команды будет специализироваться на определенной части работы;"
+
+#: phil/templates/phil/about.html:20
+msgid ""
+"all the money that passes my hands (accounts) must be recorded. For current "
+"income and expenses I use "
+msgstr ""
+"все деньги, которые проходят мои руки (счета) обязательно записаны. Для "
+"текущих доходов и расходов использую "
+
+#: phil/templates/phil/about.html:20
+msgid "app. DREBEDENGI"
+msgstr "приложение «Drebedengi»"
+
+#: phil/templates/phil/about.html:21
+msgid ""
+"in order not to constantly look for instructions on how to do something "
+"specific, I take notes (write it down for myself) of the actions. "
+msgstr ""
+"чтобы постоянно не искать инструкцию как сделать что-то определенное, я "
+"записываю это для себя, то есть конспектирую действия. "
+
+#: phil/templates/phil/about.html:21
+msgid "Example of notes on the DJANGO framework"
+msgstr "Пример конспекта по вреймворку «DJANGO»"
+
+#: phil/templates/phil/about.html:22
+msgid ""
+"I think that there is never much knowledge and you always need to learn! I "
+"passed trainings: \"Personnel Management\", \"Art of sales\", \"Context\", "
+"\"Money\", \"PYTHON for analysts\" and many others;"
+msgstr ""
+"считаю, что знаний много не бывает и учиться нужно всегда! Проходил "
+"обучения: «Управление персоналом», «Искусство продаж», «Контекст», «Деньги», "
+"«PYTHON для аналитиков»;"
+
+#: phil/templates/phil/about.html:23
+msgid "you learn by doing (usually I learn by practice);"
+msgstr "делая обучаешься (обычно обучаюсь на практике);"
+
+#: phil/templates/phil/about.html:24
+msgid "you can find (almost) any information on the Internet;"
+msgstr "в интернете можно найти (практически) любую информацию;"
+
+#: phil/templates/phil/about.html:25
+msgid ""
+"according to the SCRUM methodology, I am a \"Wise fool\": this is a person "
+"who asks unpleasantquestions or speaks an inconvenient truth to his face. "
+"Few people perform this role, although it is necessary in SCRUM teams;"
+msgstr ""
+"по методологии SCRUM я - «Мудрый шут»: это человек, задающий неприятные "
+"вопросы или говорящий в лицо неудобную правду. Мало, кто выполняет эту роль, "
+"хотя она необходима в SCRUM-командах;"
+
+#: phil/templates/phil/about.html:26
+msgid "I like to read. By "
+msgstr "люблю читать. По "
+
+#: phil/templates/phil/about.html:26
+msgid "the link "
+msgstr "ссылке "
+
+#: phil/templates/phil/about.html:26
+msgid ""
+"that`s not all I`ve read. But the principle of choosing books and the "
+"subject are clear;"
+msgstr "не все, что я прочел. Но принцип выбора книг и тематика понятны;"
+
+#: phil/templates/phil/about.html:27
+msgid "I choose not to smoke;"
+msgstr "я выбираю не курить;"
+
+#: phil/templates/phil/about.html:28
+msgid "I choose not to drink any alcohol"
+msgstr "не употреблять напитки, содержащие алкоголь."
+
+#: phil/templates/phil/about.html:31
+msgid "My habits:"
+msgstr "Мои привычки:"
+
+#: phil/templates/phil/about.html:33
+msgid "A habbit "
+msgstr "Привычка "
+
+#: phil/templates/phil/about.html:33
+msgid ""
+"an automatically reproducible action, the execution of which is initiated by "
+"some signal (habit trigger) and is performed and completed with a sense of "
+"pleasure. The established way of behavior, the implementation of which in a "
+"certain situation (playing the role of a trigger, a signal that triggers the "
+"actions of a habit) acquires for the individual the character of a need that "
+"prompts \"to perform some actions, deeds\". When forming a habit, an action "
+"is repeatedly performed, a pleasant emotional experience caused by the very "
+"implementation of this action is extremely important, since it is "
+"\"learned ..., which has become automatic and is performed without effort.\" "
+msgstr ""
+"— автоматически воспроизводимое действие, исполнение которого инициируется "
+"некоторым сигналом (триггером привычки) и выполняется и завершается с "
+"чувством удовольствия. Сложившийся способ поведения, осуществление которого "
+"в определённой ситуации (играющей роль триггера, сигнала, запускающего "
+"действия привычки) приобретает для индивида характер потребности, "
+"побуждающей «совершать какие-нибудь действия, поступки». При формировании "
+"привычки неоднократно выполняется какое-либо действие, чрезвычайно важное "
+"значение имеет вызываемое самим осуществлением этого действия приятное "
+"эмоциональное переживание, так как оно является «усвоенным…, которое стало "
+"автоматическим и совершается без усилий». "
+
+#: phil/templates/phil/about.html:33
+msgid "Wikipedia"
+msgstr "Википедия"
+
+#: phil/templates/phil/about.html:35
+msgid ""
+"I read books (at least 1 hour a day). I like to read business literature. In "
+"this "
+msgstr ""
+"Читаю книги (минимум 1 час в день). Люблю читать деловую- и бизнес-"
+"литературу. В этом "
+
+#: phil/templates/phil/about.html:35
+msgid "list "
+msgstr "списке "
+
+#: phil/templates/phil/about.html:35
+msgid ""
+"not everything Ive read. But the principle of choice and the subject are "
+"clear."
+msgstr "не все, что я прочел. Но принцип выбора и тематика понятны."
+
+#: phil/templates/phil/about.html:36
+msgid ""
+"I choose to keep my word and put all available efforts and opportunities, so "
+"that everything comes true as I promised. If I`m not sure about anything, "
+"I`d rather keep silent. An excellent video by Vladimir Gerasichev, which "
+"describes the approach that I adhere to:"
+msgstr ""
+"Я выбираю «держать слово» и прикладывать все доступные усилия и возможности, "
+"чтобы все сбывалось так, как я пообещал. Если в чем-либо неуверен, я лучше "
+"промолчу. Отличное видео Владимира Герасичева, где описан подход, которого я "
+"придерживаюсь:"
+
+#: phil/templates/phil/about.html:38
+msgid ""
+"I choose to make a promise, keep my word, usually everything I choose to do, "
+"I do with a good mood. "
+msgstr ""
+"Я выбираю давать обещание, «держать слово», обычно все что выбираю делать, я "
+"делаю с хорошим настроем. "
+
+#: phil/templates/phil/about.html:38
+msgid "Full interview."
+msgstr "Интервью полностью."
+
+#: phil/templates/phil/about.html:40
+msgid "I am learning English:"
+msgstr "Изучаю английский язык:"
+
+#: phil/templates/phil/about.html:42
+msgid "I use the Duolingo app for classes every day (at least 30 minutes);"
+msgstr ""
+"ежедневно использую для занятий приложение «Duolingo» (минимум 30 минут);"
+
+#: phil/templates/phil/about.html:43
+msgid "periodically I watch movies in English."
+msgstr "периодически смотрю фильмы на английском языке."
+
+#: phil/templates/phil/about.html:49
+msgid "Sports and physical activity:"
+msgstr "Занятие спортом и физическая активность:"
+
+#: phil/templates/phil/about.html:51
+msgid ""
+"I do sports every day (at first I did regular exercises, but on October 05, "
+"2022 I reached 500 daily squats, it`s hard to call it \"Regular exercises\");"
+msgstr ""
+"ежедневно занимаюсь спортом (сначала делал зарядку обычную, но 05 октября "
+"2022г. дошел до 500 приседаний ежедневных, это уже сложно назвать «обычной "
+"зарядкой»);"
+
+#: phil/templates/phil/about.html:52
+msgid "I walk at least 7000 steps a day (usually more);"
+msgstr "прохожу не менее 7000 шагов в день (обычно больше);"
+
+#: phil/templates/phil/about.html:53
+msgid "I go skiing."
+msgstr "катаюсь на горных лыжах."
+
+#: phil/templates/phil/about.html:59
+msgid ""
+"Hardening. I started in winter by dipping into a pond (ice hole) after a "
+"steam room, now in the shower at the end I stand for a minute under freezing "
+"water."
+msgstr ""
+"Закаливание. Начал зимой окунанием в водоем (прорубь) после парилки, сейчас "
+"в душе в завершение стою минуту под исключительно холодной водой."
+
+#: phil/templates/phil/about.html:60
+msgid ""
+"Usually, the first associations with the word \"habit\" are: a bad habit and "
+"smoking. I choose:"
+msgstr ""
+"Обычно, первые ассоциации со словом \"привычка\" это: вредная привычка и "
+"курение. Я выбираю:"
+
+#: phil/templates/phil/about.html:62
+msgid "not to smoke;"
+msgstr "не курить;"
+
+#: phil/templates/phil/about.html:63
+msgid "not to drink any alcohol"
+msgstr "не употреблять напитки, содержащие алкоголь."
+
+#: phil/templates/phil/about_analytics.html:6
+msgid "About analytics"
+msgstr ""
+
+#: phil/templates/phil/about_analytics.html:11
+msgid ""
+"I like decision-making based on numbers (facts). I visualize data based on "
+"numbers beautifully and clearly (graphs, tables, etc.)"
+msgstr ""
+"Люблю принятие решений, основанное на цифрах (фактах). Данные, основанные на "
+"цифрах, красиво и понятно визуализирую (графики, таблицы и пр.)"
+
+#: phil/templates/phil/about_analytics.html:13
+msgid "I use Excel & GoogleSheets;"
+msgstr "владею Excel & GoogleSheets;"
+
+#: phil/templates/phil/about_analytics.html:14
+msgid "I use Git & GitHub;"
+msgstr "владею Git & GitHub;"
+
+#: phil/templates/phil/about_analytics.html:15
+#: phil/templates/phil/about_django.html:41
+msgid "I use MySQL, SQLite, PostgreSQL;"
+msgstr "владею MySQL, SQLite, PostgreSQL;"
+
+#: phil/templates/phil/about_analytics.html:16
+msgid "Django framework;"
+msgstr "фреймворк Django;"
+
+#: phil/templates/phil/about_analytics.html:17
+msgid "PYTHON libraries: NumPy, Pandas, Tkinter and other"
+msgstr "библиотеки PYTHON: NumPy, Pandas, Tkinter."
+
+#: phil/templates/phil/about_analytics.html:20
+msgid "The system I created on Excel (Google Sheets):"
+msgstr "Система, созданная мною на Excel (Google Sheets):"
+
+#: phil/templates/phil/about_analytics.html:21
+msgid "Advantages of Excel (Google Sheets):"
+msgstr "Преимущества Excel (Google Sheets):"
+
+#: phil/templates/phil/about_analytics.html:22
+msgid "Everything can be counted (taken into account) and saved;"
+msgstr "Все можно считать (учитывать) и сохранять;"
+
+#: phil/templates/phil/about_analytics.html:23
+msgid ""
+"Based on the saved data, it is possible to plan expenses and receipts in "
+"the  future;"
+msgstr ""
+"На основе сохранённых данных можно планировать расходы и поступления в "
+"будущем;"
+
+#: phil/templates/phil/about_analytics.html:24
+msgid ""
+"You can set up remote transmission of information. Only the Internet is "
+"needed. You  will always have access, even if you go somewhere. Access is "
+"possible even from a mobile phone;"
+msgstr ""
+"Можно настроить удаленную передачу информации. Нужен только интернет. У вас "
+"будет доступ всегда, даже если куда-нибудь уедете. Доступ возможен даже с "
+"мобильного телефона;"
+
+#: phil/templates/phil/about_analytics.html:25
+msgid ""
+"Everything can be viewed from any modern smartphone. You don`t need a "
+"computer. Only a user skill is needed to configure the display, there is no "
+"need to involve a programmer (or a system administrator);"
+msgstr ""
+"Все можно посмотреть с любого современного смартфона. Компьютер не нужен. "
+"Для настройки отображения нужен только пользовательский навык, не нужно "
+"привлекать системного администратора;"
+
+#: phil/templates/phil/about_analytics.html:26
+msgid ""
+"The ability to customize the report view that is convenient for you. "
+"Emphasize important data, remove unnecessary;"
+msgstr ""
+"Возможность настроить удобный вам вид отчета. Акцентировать важные данные, "
+"убрать ненужные;"
+
+#: phil/templates/phil/about_analytics.html:27
+msgid ""
+"There are quite a lot of Excel specialists. Without problems, you can find "
+"an alternative  specialist, unlike special programs."
+msgstr ""
+"Специалистов Excel довольно много. Без проблем можно найти альтернативного "
+"специалиста, в отличие от специальных программ (даже для распространенной 1С "
+"труднее)."
+
+#: phil/templates/phil/about_analytics.html:30
+msgid "Download:"
+msgstr "Скачать:"
+
+#: phil/templates/phil/about_analytics.html:31
+msgid "Larger diagram (png file);"
+msgstr "Схема крупнее (png файл);"
+
+#: phil/templates/phil/about_analytics.html:32
+msgid "Summary table (GSheets file);"
+msgstr "Сводная таблица (GSheets файл);"
+
+#: phil/templates/phil/about_analytics.html:33
+msgid "Point of sale accounting file (Excel file)."
+msgstr "Файл учета торговых точек (Excel файл)."
+
+#: phil/templates/phil/about_analytics.html:36
+msgid ""
+"Analytics. We take into account the ratio to the last month and to the "
+"average value for the year:"
+msgstr ""
+"Аналитика. Учитываем отношение к прошлому месяцу и к среднему значению за "
+"год:"
+
+#: phil/templates/phil/about_analytics.html:39
+msgid "\"Little one\" of formula. There are many such formulas out there:"
+msgstr "\"Формулка\". Одна из. Таких формул обычно много..."
+
+#: phil/templates/phil/about_django.html:4
+msgid "About django development"
+msgstr ""
+
+#: phil/templates/phil/about_django.html:8
+msgid "Practice:"
+msgstr "Практика:"
+
+#: phil/templates/phil/about_django.html:9
+#: phil/templates/phil/about_django.html:22
+msgid "I passed "
+msgstr "Прошел "
+
+#: phil/templates/phil/about_django.html:9
+msgid "course John Elder"
+msgstr "John Elder course"
+
+#: phil/templates/phil/about_django.html:9
+msgid ""
+"created a training project \"Create A Simple Blog With Python and Django\""
+msgstr "создал учебный проект «Create A Simple Blog With Python and Django»"
+
+#: phil/templates/phil/about_django.html:10
+#: phil/templates/phil/about_django.html:23
+msgid "In the project:"
+msgstr "В проекте:"
+
+#: phil/templates/phil/about_django.html:12
+msgid "creating a blog;"
+msgstr "создание блога;"
+
+#: phil/templates/phil/about_django.html:13
+msgid "ability to create categories and assign a category to blog posts;"
+msgstr "возможность создания категорий и присвоение категории записям блога;"
+
+#: phil/templates/phil/about_django.html:14
+msgid "creating SLUG addresses to categories;"
+msgstr "создание SLUG адресов к категориям постов;"
+
+#: phil/templates/phil/about_django.html:15
+#: phil/templates/phil/about_django.html:26
+msgid "system of "
+msgstr "создание системы "
+
+#: phil/templates/phil/about_django.html:15
+#: phil/templates/phil/about_django.html:26
+#: phil/templates/phil/register.html:17
+msgid "Registration "
+msgstr "регистрации "
+
+#: phil/templates/phil/about_django.html:15
+#: phil/templates/phil/about_django.html:26
+msgid "and "
+msgstr "и "
+
+#: phil/templates/phil/about_django.html:15
+#: phil/templates/phil/about_django.html:26
+msgid "authorizations "
+msgstr "авторизации "
+
+#: phil/templates/phil/about_django.html:15
+#: phil/templates/phil/about_django.html:26
+msgid "users;"
+msgstr "пользователей;"
+
+#: phil/templates/phil/about_django.html:16
+msgid ""
+"adding posts to a website with a photo. There is also the possibility of "
+"formatting the text of the post."
+msgstr ""
+"добавление постов на сайт с фотографией. Также есть возможность "
+"форматирования текста поста."
+
+#: phil/templates/phil/about_django.html:16
+msgid "It is possible to make only registered and authorized users;"
+msgstr "Возможно только зарегистрированным и авторизованным пользователям;"
+
+#: phil/templates/phil/about_django.html:17
+msgid "the ability to edit and delete posts to certain users;"
+msgstr ""
+"возможность редактирования и удаления постов определенным пользователям;"
+
+#: phil/templates/phil/about_django.html:18
+msgid "creating a system of likes;"
+msgstr "создание системы лайков;"
+
+#: phil/templates/phil/about_django.html:19
+msgid "creating a post comment system;"
+msgstr "создание системы комментариев поста;"
+
+#: phil/templates/phil/about_django.html:22
+msgid "Selfedu training "
+msgstr "обучение Selfedu "
+
+#: phil/templates/phil/about_django.html:22
+msgid "created a training project \"Women\""
+msgstr "создал учебный проект «Women»"
+
+#: phil/templates/phil/about_django.html:24
+msgid "selection of articles with a photo;"
+msgstr "подбор статей с фотографией;"
+
+#: phil/templates/phil/about_django.html:25
+msgid ""
+"articles are divided into categories, you can choose to display articles by "
+"certain category;"
+msgstr ""
+"статьи разделены на категории, можно выбрать отображение статей по "
+"определенным категориям;"
+
+#: phil/templates/phil/about_django.html:27
+msgid "adding articles to a website with a photo. "
+msgstr "добавление статей на сайт с фотографией. "
+
+#: phil/templates/phil/about_django.html:27
+msgid "It is possible to do this only for registered and authorized users;"
+msgstr ""
+"Возможно сделать только зарегистрированным и авторизованным пользователям;"
+
+#: phil/templates/phil/about_django.html:28
+msgid "SLUGs are used for routing to articles;"
+msgstr "для маршрутизации к статьям используются слаги (SLUG);"
+
+#: phil/templates/phil/about_django.html:29
+msgid "using MIXINs to remove code duplication;"
+msgstr "использование MIXINs для того, чтобы убрать дублирование кода;"
+
+#: phil/templates/phil/about_django.html:30
+msgid "using paginated navigation (pagination);"
+msgstr "использование постраничной навигации (пагинация);"
+
+#: phil/templates/phil/about_django.html:33
+msgid "Additionally:"
+msgstr "Дополнительно:"
+
+#: phil/templates/phil/about_django.html:34
+msgid ""
+"this site is completely made on the Django framework: here I create and "
+"upload projects (including educational ones). The source code of this "
+"project can be  viewed at "
+msgstr ""
+"данный сайт полностью сделан на фреймворке Django: здесь создаю и выкладываю "
+"проекты (в том числе и учебные). Исходный код данного проекта можно "
+"посмотреть на "
+
+#: phil/templates/phil/about_django.html:35
+msgid "this site is made multilingual"
+msgstr "этот сайт сделан мультиязычным"
+
+#: phil/templates/phil/about_django.html:36
+msgid ""
+"I created an application in which it possible to save, compare with last "
+"date and watch the dynamics of body measurements;"
+msgstr ""
+"создал приложение, в котором можно сохранять и смотреть динамику своих "
+"замеров тела;"
+
+#: phil/templates/phil/about_django.html:37
+msgid ""
+"I am creating an application with a list of books I have read, in which you "
+"can write your description of the book and add quotes from the book;"
+msgstr ""
+"создаю приложение со списком прочитанных книг, в котором можно будет писать "
+"свое описание книги и добавлять цитаты из книги;"
+
+#: phil/templates/phil/about_django.html:42
+msgid "Django framework (PYTHON);"
+msgstr "фреймворк Django (PYTHON);"
+
+#: phil/templates/phil/about_django.html:43
+msgid "PYTHON libraries: NumPy, Pandas, Tkinter."
+msgstr "библиотеки PYTHON: NumPy, Pandas, Tkinter."
+
+#: phil/templates/phil/base.html:35
+msgid "My HARD & SOFT Skills"
+msgstr "Мои HARD & SOFT скилы"
+
+#: phil/templates/phil/base.html:38
+msgid "Books and Quotes"
+msgstr "Книги и цитаты"
+
+#: phil/templates/phil/base.html:49
+msgid "Log out"
+msgstr "Выйти"
+
+#: phil/templates/phil/base.html:102
+msgid "y."
+msgstr "г."
+
+#: phil/templates/phil/base.html:104
+msgid "Copyright. All Rights Reserved."
+msgstr ""
+"Частичное или полное копирование информации с данного сайта для "
+"распространения на других ресурсах, в том числе и бумажных, без разрешения "
+"запрещено."
+
+#: phil/templates/phil/login.html:7
+msgid "Authorization "
+msgstr "Авторизация"
+
+#: templates/admin/auth/user/add_form.html:6
+msgid ""
+"First, enter an email and password. Then, you’ll be able to edit more user "
+"options."
+msgstr ""
+
+#: templates/admin/auth/user/add_form.html:8
+msgid "Enter an email and password."
+msgstr "Введите email и парольь"
+
+#, fuzzy, python-format
+#~| msgid "Add a book"
+#~ msgid "Add a book{%% trans "
+#~ msgstr "Добавить книгу"
+
+#, fuzzy
+#~| msgid "Copyright. All Rights Reserved."
+#~ msgid "Copyright © All Rights Reserved."
+#~ msgstr ""
+#~ "Частичное или полное копирование информации с данного сайта для "
+#~ "распространения на других ресурсах, в том числе и бумажных, без "
+#~ "разрешения запрещено."
+
+#~ msgid ""
+#~ "every two hours I am making coffee/tea breaks, during which I play chess "
+#~ "on my phone app.;"
+#~ msgstr ""
+#~ "каждые два часа я делаю перерывы на кофе/чай, во время которых играю в "
+#~ "шахматы в приложении для своего телефона.;"
+
+#~ msgid "Information about me: my SOFT-skills & habits"
+#~ msgstr "Информация обо мне: мои SOFT-skills & привычки"
+
+#~ msgid " Registration"
+#~ msgstr "Регистрация"
+
+#~ msgid "г."
+#~ msgstr "г."

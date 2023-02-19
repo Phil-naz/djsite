@@ -1,0 +1,42 @@
+{% extends 'phil/base.html' %}
+{% load books_tags %}
+{% load i18n %}
+
+{% block title %}{{book.name}} ({{book.author}}){% endblock %}
+{% block content %}
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<!-- Left sidebar  -->
+	<td valign="top" class="leftchapters1">
+	<ul>
+					{% if request.user.is_authenticated %}
+			<a href="{% url 'addbook' %}"><button><div align="center">{% trans 'Add a book' %}</div></button></a><br><br>
+					{% endif %}
+		<li class="leftchapters"><a href="{% url 'books' %}">{% trans 'All books' %}</a></li>
+		{% book_list as book_list %}
+        {% for p in book_list %}
+			{% if p.pk == book.pk %}
+		<li class="selected">{{p.name}} ({{p.author}})</li>
+			{% else %}
+		<li class="leftchapters"><a href="{{ p.get_absolute_url }}">{{p.name}} ({{p.author}})</a></li>
+			{% endif %}
+		{% endfor %}
+    </ul>
+    </td>
+
+<br>
+	<td width="10"> </td>
+<td>
+<h1>{{book.name}} ({{book.author}})</h1>
+
+{% if book.photo %}
+<p><img class="img-book" src="{{book.photo.url}}"></p>
+{% endif %}
+
+
+
+{{book.author_description|linebreaks}}
+
+</td></tr></table>
+
+{% endblock content %}
