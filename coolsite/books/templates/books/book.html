@@ -1,5 +1,6 @@
 {% extends 'phil/base.html' %}
 {% load books_tags %}
+{% load static %}   <!-- This tag connecting to static files (CSS,JS,IMAGES) -->
 {% load i18n %}
 
 {% block title %}{{book.name}} ({{book.author}}){% endblock %}
@@ -30,7 +31,7 @@
 <h1>{{book.name}} ({{book.author}})</h1>
 
 {% if book.photo %}
-<p><img class="img-book" src="{{book.photo.url}}"></p>
+<p><img class="image-book" src="{{book.photo.url}}"></p>
 {% endif %}
 
 

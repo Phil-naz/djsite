@@ -6,13 +6,15 @@
 {% block title %}{% trans 'About Philip Nazarenko' %}{% endblock %}
 {% block content %}
 
-<h1>HARD-skills:</h1>
+<h1>{% trans 'Philip Nazarenko: the web-page about me & my web-projects.' %}</h1>
+<br>
+<h2>HARD-skills:</h2>
 &nbsp;&nbsp;&nbsp;<a href="{% url 'django' %}">{% trans 'Development of web projects using the Django framework (Python)' %}</a><br>
 &nbsp;&nbsp;&nbsp;<a href="{% url 'analytics' %}">{% trans 'Analytics (using Excel, SQL, Python)' %}</a><br><br>
 
 
-<h1>SOFT-skills:</h1>
-<h2>{% trans 'Information about me (summary):' %}</h2>
+<h2>SOFT-skills:</h2>
+<h3>{% trans 'Information about me (summary):' %}</h3>
 <ul style="list">
 <li type="square">{% trans 'planning: I usually plan everything in my life. There is a plan for the long-term  perspective (from 3 years), medium-term (1-3 years). In my current life I use a plan for a week (sprint), every day I use ' %}<a href="https://todoist.com" target="_blank">{% trans '"Todoist" Task Manager' %}</a>;</li>
 <li type="square">I can speak and write English, sometimes use dictionary. I study English every day to know it better;</li>
@@ -29,9 +31,9 @@
 </ul>
 
 <h3>{% trans 'My habits:' %}</h3>
-<div align="center"><img src="{% static 'phil/habbits/Aristotel.png' %}" height="350" alt="Aristotle: Our essence is reflected in our repetitive actions. It follows that perfection is not an action, but a habit."></div><br><br>
+<div align="center"><img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/Aristotle.png' %}" height="350" alt="Aristotle: Our essence is reflected in our repetitive actions. It follows that perfection is not an action, but a habit."></div><br><br>
 <p><b>{% trans 'A habbit ' %}</b>{% trans 'an automatically reproducible action, the execution of which is initiated by some signal (habit trigger) and is performed and completed with a sense of pleasure. The established way of behavior, the implementation of which in a certain situation (playing the role of a trigger, a signal that triggers the actions of a habit) acquires for the individual the character of a need that prompts "to perform some actions, deeds". When forming a habit, an action is repeatedly performed, a pleasant emotional experience caused by the very implementation of this action is extremely important, since it is "learned ..., which has become automatic and is performed without effort." ' %}(<a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%B2%D1%8B%D1%87%D0%BA%D0%B0" target="_blank">{% trans 'Wikipedia' %}</a>).</p>
-<div align="center"><img src="{% static 'phil/habbits/Goal.Action.Result.png' %}" height="350" alt="After all, life is like riding a bicycle: if you don't move forward, you immediately fall.; Life is a work on yourself.; Willpower is a muscle that needs to be trained: by doing sports, making decisions, setting rules for yourself and a clear use of them."></div><br><br>
+<div align="center"><img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/Goal.Action.Result.png' %}" height="350" alt="After all, life is like riding a bicycle: if you don't move forward, you immediately fall.; Life is a work on yourself.; Willpower is a muscle that needs to be trained: by doing sports, making decisions, setting rules for yourself and a clear use of them."></div><br><br>
 <li type="square"><b>{% trans 'I read books (at least 1 hour a day). I like to read business literature. In this ' %}<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQb6KGSAbpVQfQ0EjUL43pya4f1gV9OwaoHXTG88Ddf-zo8IyLscb9DQJCtYE3_XwE9qK77SRBQ69y7/pubhtml?gid=1638347593&single=true" target="_blank">{% trans 'list ' %}</a>{% trans 'not everything Ive read. But the principle of choice and the subject are clear.' %}</b></li><br><br>
 <li type="square"><b>{% trans 'I choose to keep my word and put all available efforts and opportunities, so that everything comes true as I promised. If I`m not sure about anything, I`d rather keep silent. An excellent video by Vladimir Gerasichev, which describes the approach that I adhere to:' %}</b></li>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6uPCvKH0JWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
@@ -41,9 +43,9 @@
     <ul style="list">
         <li type="square">{% trans 'I use the Duolingo app for classes every day (at least 30 minutes);' %}</li>
         <li type="square">{% trans 'periodically I watch movies in English.' %}</li>
-     <img src="{% static 'phil/habbits/duolingo1.jpeg' %}" height="350">
-     <img src="{% static 'phil/habbits/duolingo2.png' %}" height="350">
-     <img src="{% static 'phil/habbits/duolingo3.jpeg' %}" height="350">
+     <img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/duolingo1.jpeg' %}" height="350">
+     <img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/duolingo2.png' %}" height="350">
+     <img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/duolingo3.jpeg' %}" height="350">
 
     </ul><br>
 <ul><li type="square"><b>{% trans 'Sports and physical activity:' %}</b></li>
@@ -52,9 +54,9 @@
         <li type="square">{% trans 'I walk at least 7000 steps a day (usually more);' %}</li>
         <li type="square">{% trans 'I go skiing.' %}</li>
     </ul>
-    <img src="{% static 'phil/habbits/walking.png' %}" height="350" weight="350">
-    <img src="{% static 'phil/habbits/skies.png' %}" height="350" weight="350">
-    <img src="{% static 'phil/habbits/muscules.png' %}" height="350" weight="350"><br><br>
+    <img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/walking.png' %}" height="350" weight="350">
+    <img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/skies.png' %}" height="350" weight="350">
+    <img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/muscules.png' %}" height="350" weight="350"><br><br>
 
 <li type="square"><b>{% trans 'Hardening. I started in winter by dipping into a pond (ice hole) after a steam room, now in the shower at the end I stand for a minute under freezing water.' %}</b></li><br><br>
 <li type="square"><b>{% trans 'Usually, the first associations with the word "habit" are: a bad habit and smoking. I choose:' %}</b></li>
@@ -63,7 +65,7 @@
         <li type="square">{% trans 'not to drink any alcohol' %}</li>
     </ul>
 </ul><br>
-<div align="center"><img src="{% static 'phil/habbits/peoples.png' %}" height="350" alt="Stephen R. Covey: Nevertheless, companies are made up of people, and the more efficient these people are, the stronger the companies are."></div><br><br>
+<div align="center"><img style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" src="{% static 'phil/habbits/people.png' %}" height="350" alt="Stephen R. Covey: Nevertheless, companies are made up of people, and the more efficient these people are, the stronger the companies are."></div><br><br>
 
 
 {% endblock content %}

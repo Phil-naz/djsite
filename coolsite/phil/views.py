@@ -17,3 +17,8 @@ def about_django(request):
     context = {
     }
     return render(request, 'phil/about_django.html', context=context)
+
+def fail(request):
+    context = {
+    }
+    return render(request, 'phil/fail.html', context=context)

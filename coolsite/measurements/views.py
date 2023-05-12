@@ -6,16 +6,11 @@ from django.views.generic import ListView, DetailView, CreateView
 from django.contrib.auth import login, logout
 from django.conf import settings
 
-
 from .models import *
 from .forms import *
 
 
-
 def measurements(request):
-    if Measurements.objects.filter(user=request.user.id):
-        last = Measurements.objects.order_by('-Date')[0]  # for last user's value
-
     if request.method == 'POST':
         form = AddMeasurements(request.POST, request.FILES)
         if form.is_valid():
@@ -41,7 +36,9 @@ def measurements(request):
 
 def meas_add(request):
     if Measurements.objects.filter(user=request.user.id):
-        last = Measurements.objects.order_by('-Date')[0]  # for last user's value
+        last = Measurements.objects.filter(user=request.user).order_by('-Date')[0]   # for last user's value
+    else:
+        last = "1"
 
     if request.method == 'POST':
         form = AddMeasurements(request.POST, request.FILES)
@@ -57,6 +54,7 @@ def meas_add(request):
         'title': 'Add measurements',
         'measurements': Measurements.objects.filter(user=request.user),
         'form': form,
+        'last': last,
         }
         return render(request, 'measurements/meas_add.html', context=context)
     else:

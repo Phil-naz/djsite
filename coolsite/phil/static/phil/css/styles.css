@@ -1,21 +1,13 @@
 html, body {
 	font-family: 'Arial';
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 3px;
 	height: 100%;
 	width: 100%;
 	color: #444;
-}
-a {
-    color: #ed7732;
-	font-weight: 600;
 
 }
-a:hover {
-	font-weight: 700;
-	color: #fdc073;
-}
-a:visited {color: #bbb192;}
+
 .about {color: black}
 a:hover.about {color: black}
 .header {
@@ -131,13 +123,13 @@ ul.mainmenu li a:hover {
 a.contact {
     color: #e6472e;
 }
-img.img {
-	max-width: 100px;
+.booklistimg {
+	width: 100px;
 	height: auto;
 	float: left;
 	padding: 0 10px 10px 0;
 }
-img.img-book {
+img.image-book {
 	max-width: 200px;
 	height: auto;
 	float: left;
@@ -172,7 +164,7 @@ img.img-book {
     width: 370px;
     font-size: 16px;
 }
-.form-error ul {
+.form-error {
     list-style: none;
     padding: 0;
     color: #CC0000;
@@ -228,4 +220,9 @@ img.img-book {
 	font-weight: 600;
 	text-align: center;
 }
-
+.last {
+	color: red;
+	font-weight: 600;
+	text-align: left;
+	float: right;
+}

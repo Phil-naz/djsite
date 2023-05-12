@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'testing',
     'measurements.apps.MeasurementsConfig',
     'books.apps.BooksConfig',
+    'theblog',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +82,7 @@ WSGI_APPLICATION = 'coolsite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+#
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',

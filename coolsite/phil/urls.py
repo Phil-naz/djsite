@@ -5,5 +5,6 @@ urlpatterns = [
     path('', home, name='home'),
     path('about/analytics/', about_analytics, name='analytics'),
     path('about/django/', about_django, name='django'),
+    path('fail/', fail, name='fail'),
 
 ]

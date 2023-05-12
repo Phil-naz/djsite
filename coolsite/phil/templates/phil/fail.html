@@ -1,0 +1,14 @@
+{% extends 'phil/base.html' %}
+{% load static %}   <!-- This tag connecting to static files (CSS,JS,IMAGES) -->
+{% load i18n %}
+
+
+{% block title %}{% trans 'SORRY, FAIL' %}{% endblock %}
+{% block content %}
+
+<h1>{% trans 'Unfortunately, registration is not working right now :(' %}<br><br>
+    {% trans 'For using functionality of this web project, you can use ' %}:<br>login: test@test.com <br>password: DsixotA5<br><br>
+{% trans 'You can write any questions to email: ' %}<a href="mailto:6544880@mail.ru" class="contact"><img height="20" src="{% static 'phil/images/email.png' %}">6544880@mail.ru</a></h1>
+<br><br>
+
+{% endblock content %}
